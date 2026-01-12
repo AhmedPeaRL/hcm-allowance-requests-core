@@ -1,0 +1,24 @@
+{
+  "manifest_role": "allowance_request_layer",
+  "governing_principle": "request_without_obligation",
+
+  "axioms": {
+    "request_does_not_imply_response": true,
+    "response_does_not_imply_action": true,
+    "non_response_is_valid_state": true,
+    "silence_is_not_failure": true
+  },
+
+  "prohibitions": {
+    "no_internal_triggering": true,
+    "no_auto_execution": true,
+    "no_feedback_enforcement": true,
+    "no_metrics_binding": true
+  },
+
+  "scope": {
+    "requests_are_external_only": true,
+    "system_remains_witness": true,
+    "execution_is_never_assumed": true
+  }
+}
